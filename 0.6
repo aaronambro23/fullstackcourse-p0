@@ -1,0 +1,6 @@
+title 0.6: New note in Single page app diagram
+
+Browser->Server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+note over Browser: Content-type: application/json // {content: "Messi Campeon", date:"2022-12-30T10:44:45.905Z
+Server-->Browser: status code 201 created
+note over Browser: Browser executes the event handler that renders notes to display
